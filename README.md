@@ -170,10 +170,11 @@
   ```
 
   1. 实现 xml 和 Activity/Fragment 之间的控件和数据的绑定，使用 DataBinding 之后，就不用 findViewById 了
-  3. 实现数据更新的方式 ObservableField 和 LiveData，使数据在 viewModel 层更新之后可以同步到 view 层
-  4. 将数据和控件的操作分离，这十分关键
-  5. 如何在不获取 view 的情况下，在 viewModel 层更新数据呢？
-  
+  2. 实现数据更新的方式 ObservableField 和 LiveData，使数据在 viewModel 层更新之后可以同步到 view 层
+  3. 将数据和控件的操作分离，这十分关键
+  4. 如何在不获取 view 的情况下，在 viewModel 层更新数据呢？
+  5. DataBindingUtil.setContentView( 和ActivityGameBinding.inflate(，即：xml 和 Fragment 或者 Activity 绑定的方式 // TODO ，以及 setContentView()
+
 * **LiveData**
 
   是和生命周期共存亡的数据，不会有内存泄漏的风险
