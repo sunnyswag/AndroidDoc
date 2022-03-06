@@ -1,0 +1,1 @@
+1. ViewPager2 里面可以是 Fragment，也可以是 View。如果是相同结构的页面，可以只创建一个 View 或者 Fragment 就 OK
