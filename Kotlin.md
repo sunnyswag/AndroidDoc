@@ -44,3 +44,9 @@ class SquareImageView: AppCompatImageView {
 
 使用 this 关键字：
 
+
+
+#### Kotlin 入门教程
+
+https://www.jianshu.com/p/2e0746c7d4f3
+
